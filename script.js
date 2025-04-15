@@ -53,9 +53,6 @@
     // Random horizontal position (within the screen width)
     img.style.left = Math.random() * 80 + 'vw';
 
-    // Random vertical position (within the screen width)
-    img.style.top = 50 + Math.random() * 10 + 'vw';
-
     // Random animation delay
     img.style.animationDelay = Math.random() * 2 + 's';
 
