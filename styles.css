@@ -290,7 +290,7 @@
   .balloon-icon-contact
   {
     position: absolute;
-    top: 4480px;
+    top: 7050px;
     left: 100px;
 
     width: 150px;
@@ -299,8 +299,27 @@
   .balloon-icon-contact2
   {
     position: absolute;
-    top: 4480px;
+    top: 7050px;
     left: 500px;
+
+    width: 150px;
+  }
+
+
+  .balloon-icon-services-details
+  {
+    position: absolute;
+    top: 420px;
+    left: 100px;
+
+    width: 150px;  
+  }
+
+  .balloon-icon-services-details2
+  {
+    position: absolute;
+    top: 420px;
+    left: 420px;
 
     width: 150px;
   }
@@ -488,6 +507,17 @@
     {
       width: 300px;
       border-radius: 16px;
+    }
+
+
+    .balloon-icon-services-details
+    {
+      display: none;
+    }
+  
+    .balloon-icon-services-details2
+    {
+      display: none;
     }
   }
 
