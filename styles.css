@@ -242,7 +242,7 @@
   .balloon-icon-past-events
   {
     position: absolute;
-    top: 3400px;
+    top: 3350px;
     left: 100px;
 
     width: 150px;
@@ -251,7 +251,7 @@
   .balloon-icon-past-events2
   {
     position: absolute;
-    top: 3400px;
+    top: 3350px;
     left: 500px;
 
     width: 150px;
@@ -290,7 +290,7 @@
   .balloon-icon-contact
   {
     position: absolute;
-    top: 7050px;
+    top: 6990px;
     left: 100px;
 
     width: 150px;
@@ -299,7 +299,7 @@
   .balloon-icon-contact2
   {
     position: absolute;
-    top: 7050px;
+    top: 6990px;
     left: 500px;
 
     width: 150px;
@@ -336,7 +336,7 @@
   @media (min-width: 768px) {
     .services-title {
       text-align: left;
-      margin-bottom: 120px;
+      margin-bottom: 60px;
       padding-left: 100px;
     }
 
@@ -618,4 +618,11 @@
       transform: translateY(-120vh);
       opacity: 0;
     }
+  }
+
+  .social-media-icon
+  {
+    font-size: 20px;
+    all: unset;
+    cursor: pointer;
   }
