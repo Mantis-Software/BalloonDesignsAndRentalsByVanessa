@@ -58,7 +58,7 @@
   
   .hamburger {
     display: none;
-    font-size: 2rem;
+    font-size: 3rem;
     cursor: pointer;
     color: white;
   }
@@ -372,7 +372,7 @@
       width: 100%;
       background: #222;
       position: absolute;
-      top: 257px;
+      top: 320px;
       left: 0;
       z-index: 998;
     }

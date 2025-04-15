@@ -51,7 +51,7 @@
     img.className = 'balloon';
 
     // Random horizontal position (within the screen width)
-    img.style.left = Math.random() * 80 + 'vw';
+    img.style.left = Math.random() * 70 + 'vw';
 
     // Random animation delay
     img.style.animationDelay = Math.random() * 2 + 's';
@@ -62,3 +62,24 @@
 
     document.body.appendChild(img);
   }
+
+
+
+  const hamburger = document.getElementById('menu-toggle');
+  const hamburgerIcon = document.getElementById('menu-toggle-icon');
+
+  let hamburgerActive = "hamburger";
+  
+  hamburger.addEventListener('click', () => {
+
+    if(hamburgerActive == "hamburger")
+    {
+      hamburgerIcon.innerHTML = "X";
+      hamburgerActive = "closeX";
+    }else
+    {
+      hamburgerIcon.innerHTML = '&#9776;';
+      hamburgerActive = "hamburger";
+    }
+
+  });
