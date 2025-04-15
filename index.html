@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Balloon Designs & Rentals by Vanessa</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar container">
+      <div class="logo"><img class="logo-image" src="./images/logo.jpg"></img><p class="logo-text dancing-script-company-name" style="text-align: center;"><br>Balloon Designs & Rentals By Vanessa</p></div>
+    
+      <!-- Hamburger Toggle -->
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+      <!-- Nav Links -->
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+
+        <!-- Dropdown with toggle -->
+        <li class="dropdown">
+          <input type="checkbox" id="services-toggle" />
+          <label for="services-toggle" class="dropdown-label">Services ▼</label>
+          <ul class="dropdown-menu">
+            <li><a href="#">Balloon Garlands</a></li>
+            <li><a href="#">Backdrops</a></li>
+            <li><a href="#">Tables & Chairs</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#past-parties">Past Parties</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Celebrate In Style</h1>
+      <p>Backdrops, balloon garlands, and party rentals for events big and small.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <div class="container">
+      <h2 class="services-title dancing-script-title">Our Services</h2>
+      <p>We offer a variety of different services from balloon designs, custom backdrops, dessert tables, and table/chair rentals, for parties big or small. Don't worry about the stress of decorating your next corporate or personal party, we can do the heavy lifting to make your party stellar!</p>
+      <br>
+      <br>
+      <div class="service-block">
+        <img class="service-image" src="./images/balloon_example2.jpg" alt="Balloon Garland" />
+        <div class="service-content">
+          <h3>Balloon Garlands</h3>
+          <p>Custom balloon arrangements in all styles and colors. We bring your theme to life using high-quality materials and creative design tailored to your space and event type.</p>
+          <a href="#" class="button">More Details</a>
+        </div>
+      </div>
+  
+      <div class="service-block">
+        <img src="./images/backdrop2.jpg" alt="Backdrop Design" />
+        <div class="service-content">
+          <h3>Backdrops</h3>
+          <p>Photo-ready backdrops designed to wow your guests. Whether minimal or extravagant, we design and install the perfect background to elevate your event photos.</p>
+          <a href="#" class="button">More Details</a>
+        </div>
+      </div>
+  
+      <div class="service-block">
+        <img src="./images/chairs.jpg" alt="Tables and Chairs Rental" />
+        <div class="service-content">
+          <h3>Tables & Chairs</h3>
+          <p>Rental of folding tables, elegant chairs, and more. We’ll deliver, set up, and coordinate everything so your space is stylish and functional.</p>
+          <a href="#" class="button">More Details</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Past Parties -->
+  <section class="past-parties" id="past-parties">
+    <div class="container">
+      <h2 class="dancing-script-title">Past Events</h2>
+      <p>View our past work for our past clients. Regardless of the event big or small, we can help. Get inspired by what we have done, or challenge us with something new that fits your needs! We are here waiting for your next party.</p>
+      <br>
+      <br>
+
+      <div class="gallery">
+        <div class="gallery-item" style="background-image: url(./images/backdrop.jpg);"></div>
+        <div class="gallery-item" style="background-image: url(./images/balloon_example.JPG);"></div>
+        <div class="gallery-item" style="background-image: url(./images/event3.jpg);"></div>
+
+        <div class="gallery-item" style="background-image: url(./images/event3.jpg);"></div>
+        <div class="gallery-item" style="background-image: url(./images/balloon_example.JPG);"></div>
+        <div class="gallery-item" style="background-image: url(./images/backdrop.jpg);"></div>
+      </div>
+    </div>
+
+
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-nav">
+          <span class="prev">&#10094;</span>
+          <span class="next">&#10095;</span>
+        </div>
+      </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="dancing-script-title">Contact Us</h2>
+      <div class="contact-us-container">
+        <div class="contact-info-container">
+          <p><b><i class="fa fa-envelope"></i> Email:</b> valmaguer27@gmail.com</p>
+          <p><b><i class="fa fa-phone"></i> Phone:</b> (210) 794-2426</p>
+          <p><b><i class="fa fa-map-pin"></i> Location:</b> San Antonio, Texas</p>
+        </div>
+
+        <div>
+          <img class="contact-image" src="./images/IMG_9410.jpg"/>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Balloon Deisgns & Rentals By Vanessa.</p>
+    </div>
+  </footer>
+
+
+<img class="balloon-icon-services floating-image" src="./images/balloon_icon.png"></img>
+<img class="balloon-icon-services2 floating-image" src="./images/balloon_icon.png"></img>
+
+<img class="balloon-icon-past-events floating-image" src="./images/balloon_icon_gold.png"></img>
+<img class="balloon-icon-past-events2 floating-image" src="./images/balloon_icon_gold.png"></img>
+
+<img class="balloon-icon-contact floating-image" src="./images/balloon_icon.png"></img>
+<img class="balloon-icon-contact2 floating-image" src="./images/balloon_icon.png"></img>
+
+<script src="script.js"></script>
+
+</body>
+</html>
