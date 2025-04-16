@@ -174,19 +174,11 @@
 
   .balloon-icon-services
   {
-    position: absolute;
-    top: 1120px;
-    left: 100px;
-
     width: 150px;
   }
 
   .balloon-icon-services2
   {
-    position: absolute;
-    top: 1120px;
-    left: 500px;
-
     width: 150px;
   }
 
@@ -289,18 +281,12 @@
 
   .balloon-icon-contact
   {
-    position: absolute;
-    top: 6990px;
-    left: 100px;
 
     width: 150px;
   }
 
   .balloon-icon-contact2
   {
-    position: absolute;
-    top: 6990px;
-    left: 500px;
 
     width: 150px;
   }
@@ -337,18 +323,15 @@
     .services-title {
       text-align: left;
       margin-bottom: 60px;
-      padding-left: 100px;
     }
 
     .past-parties h2 {
       text-align: left;
       margin-bottom: 60px;
-      padding-left: 100px;
     }
 
     .contact h2 {
       margin-bottom: 60px;
-      padding-left: 100px;
       text-align: left;
   
     }
@@ -634,3 +617,12 @@
     text-decoration: none;
     cursor: pointer;
   }
+
+
+  .title-balloon-container
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+  }
+  
