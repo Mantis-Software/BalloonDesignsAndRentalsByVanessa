@@ -114,7 +114,7 @@
 
     text-align: center;
 
-    background-image: url("./images/hero2.png");
+    background-image: url("../images/hero2.png");
     background-size: cover;
     background-position: center; /* Center the image */
     height: 700px;
@@ -185,7 +185,7 @@
   {
     position: absolute;
     top: 1120px;
-    left: 500px;
+    left: 650px;
 
     width: 150px;
   }
@@ -242,7 +242,7 @@
   .balloon-icon-past-events
   {
     position: absolute;
-    top: 3350px;
+    top: 3370px;
     left: 100px;
 
     width: 150px;
@@ -251,8 +251,8 @@
   .balloon-icon-past-events2
   {
     position: absolute;
-    top: 3350px;
-    left: 500px;
+    top: 3370px;
+    left: 600px;
 
     width: 150px;
   }
@@ -290,7 +290,7 @@
   .balloon-icon-contact
   {
     position: absolute;
-    top: 6990px;
+    top: 7020px;
     left: 100px;
 
     width: 150px;
@@ -299,7 +299,7 @@
   .balloon-icon-contact2
   {
     position: absolute;
-    top: 6990px;
+    top: 7020px;
     left: 500px;
 
     width: 150px;
@@ -319,7 +319,7 @@
   {
     position: absolute;
     top: 420px;
-    left: 420px;
+    left: 450px;
 
     width: 150px;
   }
