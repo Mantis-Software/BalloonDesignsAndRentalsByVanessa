@@ -294,19 +294,11 @@
 
   .balloon-icon-services-details
   {
-    position: absolute;
-    top: 420px;
-    left: 100px;
-
     width: 150px;  
   }
 
   .balloon-icon-services-details2
   {
-    position: absolute;
-    top: 420px;
-    left: 420px;
-
     width: 150px;
   }
   
@@ -624,5 +616,7 @@
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
+
+    margin-left: -70px;
   }
   
