@@ -329,6 +329,15 @@
       text-align: left;
       font-size: 22px;
     }
+
+    .title-balloon-container
+    {
+      display: flex;
+      flex-direction: row;
+      justify-content:flex-start;
+  
+      margin-left: -70px;
+    }
   }
   
   /* Responsive Styles */
@@ -489,6 +498,14 @@
     .balloon-icon-services-details2
     {
       display: none;
+    }
+
+    .title-balloon-container
+    {
+      display: flex;
+      flex-direction: row;
+      justify-content:flex-start;
+  
     }
   }
 

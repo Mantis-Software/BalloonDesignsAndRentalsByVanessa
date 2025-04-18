@@ -333,6 +333,15 @@
       text-align: left;
       font-size: 22px;
     }
+
+    .title-balloon-container
+    {
+      display: flex;
+      flex-direction: row;
+      justify-content:flex-start;
+  
+      margin-left: -70px;
+    }
   }
   
   /* Responsive Styles */
@@ -494,6 +503,14 @@
     {
       display: none;
     }
+
+    .title-balloon-container
+    {
+      display: flex;
+      flex-direction: row;
+      justify-content:flex-start;
+  
+    }
   }
 
 
@@ -611,12 +628,5 @@
   }
 
 
-  .title-balloon-container
-  {
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
 
-    margin-left: -70px;
-  }
   
